@@ -1,6 +1,7 @@
 create database F32_Class2_hw
 use F32_Class2_hw
 
+
 --Basic-Level Tasks
 
 --creating table Employees
