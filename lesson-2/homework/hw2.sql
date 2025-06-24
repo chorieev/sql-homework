@@ -138,4 +138,8 @@ alter column Price float
 alter table Inventory
 add ProductCode int identity(1000,5);
 
+--adding constraint
+alter table Inventory
+add constraint chk_price check (Price>0)
+
 select * from Inventory
